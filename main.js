@@ -45,7 +45,7 @@ async function Give_weather(city){
     body_img.style.backgroundImage="url('assets/mist2.jpeg')";    
     Weather_img.src="assets/mist2.png";break;
     case 'Smoke':
-    body_img.style.backgroundImage="url('assets/mist2.jpeg')";    
+    body_img.style.backgroundImage="url('assets/haze2.jpg')";    
     Weather_img.src="assets/mist2.png";break;
     case 'Rain':
     body_img.style.backgroundImage="url('assets/rain3.jpg')";
