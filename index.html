@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Weather_App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body"> 
+    <!--  <header><h1>My Weather App</h1></header>  -->
+    <div class="main">
+    <div class="search-box">
+        <input type="text" placeholder=" Enter city name" class="input-box">
+        <button class="fa-solid fa-magnifying-glass-location" id="srchbtn" //onclick="changeColor()"></button>
+    </div>
+    <div class="Weather">
+    <div class="Weather-description">
+        <p class="description">Rain</p>
+                <img src="assets/rain.png" alt="Weather" class="weather-img" >
+    </div>
+    <div class="Temp">
+        <i class="fa-solid fa-temperature-high"></i>
+        <p id="temperature"><b>0</b>℃ </p>
+        <p>Temperature</p>
+    </div>
+    <div class="container">
+    <div class="wind">
+        <i class="fa-solid fa-wind"></i>
+        <div>
+        <p id="Wind-speed"> <b>0</b> m/s </p>
+        <p>Wind Speed</p>
+    </div>
+    </div>
+    <div class="humidity">
+        <i class="fa-sharp fa-solid fa-droplet"></i>
+        <div>
+        <p id="Humidity-level" ><b>0</b>% </p>
+        <p>Humidity</p>
+    </div>
+</div>
+</div>
+</div>
+        <div class="error">
+            <img src="assets/error.png" alt="ERROR" class="errimg">
+                <p> <i class="fa-solid fa-location-dot"></i> City not found !</p>
+        </div>
+</div>
+<script src="main.js"></script>
+<script src="https://kit.fontawesome.com/773a5820bc.js" crossorigin="anonymous"></script>
+</body>
+</html> 
