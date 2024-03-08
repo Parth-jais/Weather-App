@@ -1,2 +1,2 @@
-# weather-check
+# Weather-app
 Weather checking application 
